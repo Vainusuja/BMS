@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.actions button,
+.buttons button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.form {
+  margin: 15px 0;
+}
+
+.form input,
+.form select {
+  margin-right: 10px;
+}
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+}
+
+.seat {
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.seat.available {
+  background-color: #e6ffe6;
+}
+
+.seat.held {
+  background-color: #fff3cd;
+}
+
+.seat.booked {
+  background-color: #f8d7da;
+}
